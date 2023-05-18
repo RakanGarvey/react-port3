@@ -1,0 +1,687 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+.container {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.home1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* gap: -30pc; */
+  width: 80%;
+  width: 100%;
+}
+.ul0 {
+  position: relative;
+  right: 33pc;
+  font-weight: 600;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('./images/studio.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 40pc;
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* gap: -30pc; */
+  width: 80%;
+}
+.logo {
+  height: 4pc;
+}
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  list-style: none;
+  color: white;
+  /* background-color: rgb(56, 170, 170); */
+}
+.li {
+  cursor: pointer;
+  position: relative;
+  top: 7px;
+  font-size: 22px;
+  color: aliceblue;
+}
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1 {
+  color: white;
+  font-size: 125px;
+  text-align: center;
+  margin-bottom: 5px;
+  transition: 1s;
+}
+.underline {
+  height: 5px;
+  width: 11pc;
+  background-color: rgb(238, 127, 53);
+  margin-bottom: 2.5pc;
+}
+.contact-btn {
+  font-size: 20px;
+  padding: 10px 20px;
+  border-radius: 30px;
+  color: white;
+  cursor: pointer;
+  background-color: rgb(238, 127, 53);
+  border: 2px solid rgb(238, 127, 53);
+  transition: 1s;
+}
+.contact-btn:hover {
+  background-color: white;
+  color: rgb(238, 127, 53);
+}
+/* ________________________________________________ */
+.our-clients {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 80%;
+}
+.brand-imgs {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.brand2 {
+  margin-right: 1pc;
+}
+.brand4 {
+  margin-left: -0.2pc;
+  z-index: 0;
+}
+.brand5 {
+  margin-left: -2.5pc;
+}
+h2 {
+  font-size: 30px;
+  color: rgb(238, 127, 53);
+  margin-bottom: 1px;
+}
+.underline1 {
+  height: 4px;
+  width: 3.5pc;
+  background-color: rgb(238, 127, 53);
+  border-radius: 10px;
+  position: relative;
+  left: 30px;
+}
+.brand {
+  max-width: 8pc;
+}
+@media only screen and (max-width: 985px) {
+  .our-clients {
+    flex-direction: column;
+  }
+}
+/* ____________________________________________________________ */
+.about-cont {
+  width: 100%;
+  border-radius: 50px;
+  background-color: black;
+  padding-bottom: 5pc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about {
+  /* width: 1300px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.part-1, .part-2, .part-3 {
+  display: flex;
+  justify-content: space-around;
+  gap: 1pc;
+}
+.face1-title, .fase2-title {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.about-desc {
+  max-width: 26pc;
+  font-size: 40px;
+  color: white;
+  margin-top: 11px;
+  margin-bottom: 7.9pc;
+}
+.about-end {
+  max-width: 24pc;
+  color: rgb(140, 169, 194);
+}
+.sideline {
+  width: 6px;
+  height: 4.5pc;
+  background-color: rgb(238, 127, 53);
+  border-radius: 10px;
+}
+.fase1-last {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+h3 {
+  font-size: 22px;
+  color: rgb(238, 127, 53);
+}
+.underline2 {
+  height: 4px;
+  width: 2.5pc;
+  background-color: rgb(238, 127, 53);
+  border-radius: 10px;
+}
+.location {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+}
+.loc-icon {
+  color: rgb(245, 28, 28);
+  font-size: 20px;
+}
+.loc-desc {
+  color: rgb(140, 169, 194);
+  max-width: 30pc;
+}
+.loc-img {
+  background-image: url('./images/location.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 25pc;
+  max-width: 33pc;
+}
+
+
+.part-2 {
+  flex-direction: column;
+  align-items: center;
+}
+.fase2-title {
+  position: relative;
+  right: 22pc;
+}
+.studio-img {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  max-height: 31pc;
+  max-width: 50pc;
+  height: 31pc;
+  width: 50pc;
+  margin-bottom: 20px;
+  transition: 1s;
+}
+.controle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+.arrow {
+  color: aliceblue;
+  font-size: 25px;
+  cursor: pointer;
+}
+.lines {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+.line {
+  border-radius: 10px;
+  width: 2pc;
+  height: 4px;
+  background-color: aliceblue;
+  cursor: pointer;
+}
+.line2 {
+  /* width: 3.7pc; */
+  background-color: rgb(238, 127, 53);
+}
+
+
+.part-3 {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.serv-desc {
+  font-size: 40px;
+  color: white;
+  /* position: relative;
+  right: 10pc; */
+  margin-top: -10px;
+}
+.information {
+  width: 80%;
+  margin-top: 2pc;
+  margin-right: 0;
+  display: flex;
+  justify-content: space-around;
+  gap: 15px;
+}
+.service {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  width: 20.5pc;
+  height: 10pc;
+  background-color: rgb(255, 255, 255);
+}
+.stu-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  height: fit-content;
+  background-color: rgb(255, 255, 255);
+  margin-top: 10px;
+  border-radius: 50%;
+  width: 4pc;
+  height: 4pc;
+  font-size: 25px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.35);
+}
+.fase-title {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  position: relative;
+  right: 22pc;
+}
+.service-title {
+  font-size: 26px;
+}
+
+/* __________________________________________________ */
+.porto-cont {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.portofolio {
+  width: 80%;
+  margin-top: 4pc;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 1pc;
+}
+.side-2 {
+  margin-top: 4pc;
+}
+.givenchy {
+  max-width: fit-content;
+  margin-bottom: 3pc;
+}
+.porto-title {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.porto-desc {
+  color: black;
+  margin-bottom: 12px;
+  font-size: 30px;
+}
+.explore-btn {
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-weight: 600;
+  color: white;
+  border: 2px solid rgb(238, 127, 53);
+  background-color: rgb(238, 127, 53);
+  position: relative;
+  left: 18.5pc;
+  cursor: pointer;
+  transition: 1s;
+}
+.explore-btn:hover {
+  background-color: white;
+  color: rgb(238, 127, 53);
+}
+.giv-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5pc;
+}
+.model_imgs {
+  width: 28pc;
+  height: 40pc;
+  max-width: 35pc;
+  max-height: 45pc;
+  background-position: center;
+  background-size: cover;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+/* _________________________________ */
+
+.model1 {
+  background-image: url('./images/mod01.jpg');
+  transition: 1s;
+}
+.model2 {
+  background-image: url('./images/mod04.jpg');
+  transition: 1s;
+}
+.model3 {
+  background-image: url('./images/mod07.jpg');
+  transition: 1s;
+}
+.model4 {
+  background-image: url('./images/mod10.jpg');
+  transition: 1s;
+}
+
+/* _________________________________ */
+.line-0 {
+  border-radius: 10px;
+  width: 2pc;
+  height: 4px;
+  background-color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+.line2-1, .line2-2, .line2-3, .line2-4 {
+  width: 3.7pc;
+  background-color: rgb(238, 127, 53);
+}
+.arrow-0 {
+  color: rgb(0, 0, 0);
+  font-size: 25px;
+  cursor: pointer;
+}
+
+/* _____________________________________________________ */
+.contact {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  gap: 2pc;
+}
+.contact-title {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: -1pc;
+}
+.contact-desc {
+  color: black;
+  margin-bottom: 3pc;
+}
+label {
+  font-size: 19px;
+  color: rgb(154, 202, 243);
+  font-weight: 600;
+}
+input {
+  max-width: 36pc;
+  width: 36pc;
+  height: 2pc;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 600;
+  text-indent: 15px;
+  border: none;
+  border-bottom: 2px solid rgb(101, 114, 138);
+  transition: 1s;
+}
+a {
+  font-size: 16px;
+  color: rgb(154, 202, 243);
+  position: relative;
+  left: 30.5pc;
+}
+
+.p-details {
+  font-size: 17px;
+  color: rgb(100, 169, 230);
+  margin-bottom: 5pc;
+}
+@media only screen and (max-width: 920px) {
+  .ul0 {
+    position: relative;
+    right: 17pc;
+  }
+  /* ___________ */
+  .part-1 {
+    align-items: center;
+    flex-direction: column;
+  }
+  .face1-title {
+    justify-content: center;
+  }
+  .fase2-title {
+    position: relative;
+    right: 0;
+  }
+  .studio-img {
+    height: 29pc;
+    width: 38.8pc;
+  }
+  .part-3 {
+    text-align: center
+  }
+  .fase-title {
+    right: 0;
+  }
+  /* ____________ */
+  .model_imgs {
+    width: 19pc;
+    height: 30pc;
+  }
+  .explore-btn {
+    padding: 7px 18px;
+    left: 10pc;
+  }
+  /* ____________ */
+  input {
+    width: 22pc;
+  }
+  a {
+    left: 16.4pc;
+  }
+}
+@media only screen and (max-width: 622px) {
+  .ul0 {
+    display: none;
+  }
+  /* ________________ */
+  .studio-img {
+    height: 24pc;
+    width: 30.8pc;
+  }
+  /* ____________ */
+  .model_imgs {
+    width: 30.5pc;
+    height: 40pc;
+  }
+  .explore-btn {
+    padding: 7px 18px;
+    left: 10pc;
+  }
+  .portofolio {
+    align-items: center;
+    flex-direction: column;
+  }
+
+  /* ____________ */
+  .contact {
+    flex-direction: column;
+    align-items: center;
+    gap: 2pc;
+  }
+  input {
+    width: 29pc;
+  }
+  a {
+    left: 23.3pc;
+  }
+}
+@media only screen and (max-width: 491px) {
+  /* __________________ */
+  .part-1 {
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .about-end {
+    width: 20pc;
+  }
+  .fase1-last {
+    justify-content: center;
+  }
+  .about-desc {
+    position: relative;
+    left: 1pc;
+    width: 19pc;
+    margin-bottom: 2pc;
+  }
+  .loc-desc {
+    width: 21pc;
+  }
+  .loc-img {
+    width: 21.8pc;
+    height: 12pc;
+    position: relative;
+    left: 10px;
+  }
+  .studio-img {
+    height: 15pc;
+    width: 21.8pc;
+  }
+  .information {
+    flex-direction: column;
+    align-items: center;
+  }
+  /* ____________ */
+  .side-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .explore-btn {
+    padding: 7px 18px;
+    left: 0.8pc;
+  }
+  .givenchy {
+    width: 19pc;
+  }
+  .model_imgs {
+    width: 19pc;
+    height: 30pc;
+  }
+  /* ____________ */
+  input {
+    width: 22pc;
+  }
+  a {
+    left: 16.4pc;
+  }
+}
+@media only screen and (max-width: 537px) {
+  .brand {
+    width: 5pc;
+  }
+  .brand5 {
+    margin-left: -1pc;
+  }
+  /* ____________ */
+  .ul {
+    flex-direction: column;
+    gap: 1.6pc;
+    position: relative;
+    right: 1.3pc;
+  }
+}
+@media only screen and (max-width: 581px) {
+  h1 {
+    font-size: 75px;
+  }
+  .home1 {
+    position: relative;
+    bottom: 5pc;
+  }
+}
+/* ____________________________________________________ */
+footer {
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: black;
+  padding-bottom: 5px;
+}
+.ul1 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  border-bottom: 2px solid rgb(193, 222, 248);
+}
+.ul {
+  margin-top: 3pc;
+  display: flex;
+  justify-content: center;
+  color: rgb(193, 222, 248);
+  font-size: 18px;
+}
+.li {
+  padding-bottom: 1pc;
+}
+.last {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logo1 {
+  position: relative;
+  right: 8px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.icon-btn {
+  color: rgb(193, 222, 248);
+  font-size: 25px;
+  margin-right: 0.5pc;
+}
+.copyright {
+  text-align: center;
+  color: rgb(193, 222, 248);
+}
