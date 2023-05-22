@@ -44,7 +44,6 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* gap: -30pc; */
   width: 80%;
 }
 .logo {
