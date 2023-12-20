@@ -6,7 +6,7 @@ const Contact = () => {
             <div className='contact-det'>
                 <div className='contact-title'>
                     <div className="underline2"></div>
-                        <h3>Portofolio</h3>
+                        <h3>Contact</h3>
                 </div>
                 <h2 className="contact-desc">Hello. Lets get in touch.</h2>
                 <form action="">
