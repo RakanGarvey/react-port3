@@ -2,6 +2,8 @@ import React, { useState } from 'react'
 import {BsArrowUpRight} from 'react-icons/bs'
 import {MdArrowBackIos} from 'react-icons/md'
 import {MdArrowForwardIos} from 'react-icons/md'
+import Section from '../Section'
+
 import pic1 from '../images/mod01.jpg'
 import pic2 from '../images/mod02.webp'
 import pic3 from '../images/mod03.webp'
@@ -120,7 +122,8 @@ const Portofolio = () => {
         setStyle2({backgroundImage: `url(${img2})`})
     }
   return (
-    <div className='porto-cont'>
+    <Section>
+        <div className='porto-cont'>
         <div className="portofolio">
             <div className="side-1">
                 <div className='porto-title'>
@@ -201,6 +204,7 @@ const Portofolio = () => {
             </div>
         </div>
     </div>
+    </Section>
   )
 }
 

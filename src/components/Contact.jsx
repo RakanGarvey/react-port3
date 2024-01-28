@@ -1,8 +1,10 @@
 import React from 'react'
+import Section from '../Section'
 
 const Contact = () => {
   return (
-        <div className="contact">
+        <Section>
+            <div className="contact">
             <div className='contact-det'>
                 <div className='contact-title'>
                     <div className="underline2"></div>
@@ -47,6 +49,7 @@ const Contact = () => {
                 </div>
             </div>
         </div>
+        </Section>
   )
 }
 

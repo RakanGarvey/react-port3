@@ -13,12 +13,14 @@ import brand5 from './images/brand5.jpg'
 import logo from './images/logo.png'
 import {AiFillFacebook} from 'react-icons/ai'
 import {AiFillInstagram} from 'react-icons/ai'
+import Section from './Section';
 
 function App() {
   return (
     <div className="container">
       {/* <Header /> */}
       <Home id='home'/>
+      <Section>
       <div className="our-clients">
         <div>
           <h2>Our clients</h2>
@@ -32,6 +34,7 @@ function App() {
         <img src={brand5} alt="" className='brand brand5'/>
         </div>
       </div>
+      </Section>
       <About id='about'/>
       <Portofolio id='portofolio'/>
       <Contact id='contact'/>
@@ -51,7 +54,7 @@ function App() {
             <AiFillInstagram className='icon-btn'/>
             <AiFillFacebook className='icon-btn'/>
           </div>
-          <p className="copyright">Copyright © 2023 Srtivefitstudio, All rights reserved.</p>
+          <p className="copyright">Copyright © 2024 Srtivefitstudio, All rights reserved.</p>
         </div>
       </footer>
     </div>

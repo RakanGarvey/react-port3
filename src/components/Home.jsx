@@ -1,17 +1,26 @@
 import React from 'react'
 import Header from './Header'
+import { Link } from 'react-scroll'
+import Section from '../Section'
 
 
 const Home = () => {
   return (
-    <div className='header'>
+    <Section>
+      <div className='header'>
       <Header />
-        <div className="home">
+        <Section>
+          <div className="home">
             <h1>STIVEFIT <br />STUDIO</h1>
             <div className="underline"></div>
-            <button className="contact-btn">Contact Us</button>
+            <Link className="contact-btn" to='contact' duration={2500} smooth={true}>
+              Contact Us
+            </Link>
+
         </div>
-    </div>
+        </Section>
+      </div>
+    </Section>
   )
 }
 

@@ -8,6 +8,7 @@ import { useState } from 'react'
 import pic1 from '../images/back1.jpg'
 import pic2 from '../images/back2.jpg'
 import pic3 from '../images/back3.jpg'
+import Section from '../Section'
 
 const About = () => {
     const studioPics = [pic1, pic2, pic3]
@@ -37,7 +38,8 @@ const About = () => {
         setStyle({backgroundImage: `url(${img})`})
     }
     return (
-    <div className='about-cont'>
+        <Section>
+            <div className='about-cont'>
         <div className="about">
             <div className="part-1">
             <div className="face1">
@@ -108,7 +110,8 @@ const About = () => {
                     </div>
                 </div>
             </div>
-        </div>
+    </div>
+        </Section>
     )
     }
 

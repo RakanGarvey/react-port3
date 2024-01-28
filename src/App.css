@@ -14,6 +14,16 @@ body {
   align-items: center;
   justify-content: center;
 }
+.section1 {
+  width: 100%;
+}
+
+.section1 .transition {
+  display: block;
+  /* transform: translateX(-100px); */
+  opacity: 0;
+}
+
 .home1 {
   display: flex;
   justify-content: space-around;
@@ -66,9 +76,11 @@ ul {
   color: aliceblue;
 }
 .home {
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 h1 {
   color: white;
@@ -92,6 +104,7 @@ h1 {
   background-color: rgb(238, 127, 53);
   border: 2px solid rgb(238, 127, 53);
   transition: 1s;
+  position:static;
 }
 .contact-btn:hover {
   background-color: white;
@@ -100,10 +113,10 @@ h1 {
 /* ________________________________________________ */
 .our-clients {
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   justify-content: space-evenly;
-  width: 80%;
+  width: 100%;
 }
 .brand-imgs {
   display: flex;
@@ -218,6 +231,7 @@ h3 {
   background-position: center;
   height: 25pc;
   max-width: 33pc;
+  border-radius: 5%;
 }
 
 
