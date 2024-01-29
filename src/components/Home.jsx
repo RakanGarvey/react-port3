@@ -6,7 +6,7 @@ import Section from '../Section'
 
 const Home = () => {
   return (
-    <Section>
+    // <Section>
       <div className='header'>
       <Header />
         <Section>
@@ -16,11 +16,10 @@ const Home = () => {
             <Link className="contact-btn" to='contact' duration={2500} smooth={true}>
               Contact Us
             </Link>
-
-        </div>
+          </div>
         </Section>
       </div>
-    </Section>
+    // </Section>
   )
 }
 

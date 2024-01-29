@@ -2,10 +2,12 @@ import React from 'react'
 import Menu from './Menu'
 import { Link } from "react-scroll";
 import logo from '../images/logo.png'
+import Section2 from '../Section2';
 
 const Header = () => {
   return (
-    <div className='home1'>
+    <Section2>
+      <div className='home1'>
         <img src={logo} alt="" className='logo'/>
         <ul className='ul0'>
             <Link className='li' to='home' duration={2000} smooth={true}>Home</Link>
@@ -16,6 +18,7 @@ const Header = () => {
         </ul>
         <Menu />
     </div>
+    </Section2>
   )
 }
 
